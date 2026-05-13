@@ -61,6 +61,7 @@ Você precisa configurar no GitHub os itens que dependem da conta, das permissõ
   - `linux`
   - `kvm`
   - `hyprland`
+- Definir `actions-runner-2.327.1` ou label equivalente para indicar runner compatível com actions Node 24.
 - Definir label adicional `omarchy` quando o runner ou VM validar Omarchy real.
 - Configurar secrets apenas se houver release, assinatura ou publicação.
 - Configurar ambiente protegido `release` se houver publicação automática.

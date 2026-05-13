@@ -1,0 +1,346 @@
+{
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\build.rs": {
+    "mtime": 1778674387.8500268,
+    "hash": "261df2ed51f903668b49eb9d3a14f187"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\dummy.rs": {
+    "mtime": 1778674387.8520257,
+    "hash": "aa6bf775dd4ace114507393b51e5b041"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\error.rs": {
+    "mtime": 1778674387.8520257,
+    "hash": "1e09200da98714e6eaa29311cd45f6ef"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\layer_shell.rs": {
+    "mtime": 1778674387.8520257,
+    "hash": "06e36173c21c075b474b5959d03b6c02"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\lib.rs": {
+    "mtime": 1778674387.8530443,
+    "hash": "2e4a7ae7d664f62fb123d2cabd081c98"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\libei.rs": {
+    "mtime": 1778674387.8534667,
+    "hash": "34171435fe68ea4d16b003e82209d35a"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\macos.rs": {
+    "mtime": 1778674387.8534667,
+    "hash": "fbd4c1ae4c93d1c189ba35c8e510e78b"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\windows.rs": {
+    "mtime": 1778674387.854508,
+    "hash": "dd9d153dd16c9e6d1146f1af5e6d3465"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\x11.rs": {
+    "mtime": 1778674387.854508,
+    "hash": "63ff4a55c48de6c0c076adf54beb5057"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\windows\\display_util.rs": {
+    "mtime": 1778674387.854508,
+    "hash": "17c62e2946c92f522475d821a8af3900"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-capture\\src\\windows\\event_thread.rs": {
+    "mtime": 1778696109.4529178,
+    "hash": "8722f91535744292f9774e445d7ee7ea"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\dummy.rs": {
+    "mtime": 1778674387.8554976,
+    "hash": "154043a275e5286422a237023c316893"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\error.rs": {
+    "mtime": 1778674387.8554976,
+    "hash": "4113720b14ca98ab1a8650b22c2431c9"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\lib.rs": {
+    "mtime": 1778674387.8554976,
+    "hash": "c83eee16bcb14959ced48ad106762679"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\libei.rs": {
+    "mtime": 1778674387.856497,
+    "hash": "ad28ad4b92686c2d23c31af091539bba"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\macos.rs": {
+    "mtime": 1778674387.856497,
+    "hash": "9cfa9406a4bd3a416d7f889fe567cdf2"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\windows.rs": {
+    "mtime": 1778674387.856497,
+    "hash": "81178f8c3bdcb6df6c64f6de5828ec38"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\wlroots.rs": {
+    "mtime": 1778674387.8574965,
+    "hash": "47c5db2c356544554f584d4d10f0d3d8"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\x11.rs": {
+    "mtime": 1778674387.8574965,
+    "hash": "696339e05272fb11da9ffb5eff39576c"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-emulation\\src\\xdg_desktop_portal.rs": {
+    "mtime": 1778674387.8574965,
+    "hash": "c7f525b8ab258689526800da0554ebcc"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-event\\src\\error.rs": {
+    "mtime": 1778674387.8584964,
+    "hash": "81051bcc2cf1bedf378224b0a93e2877"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-event\\src\\lib.rs": {
+    "mtime": 1778674387.8584964,
+    "hash": "f78e6f264fda5efedd0e3024ef80afef"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-event\\src\\libei.rs": {
+    "mtime": 1778674387.8584964,
+    "hash": "0432928cc4a6b8714221809927281519"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\input-event\\src\\scancode.rs": {
+    "mtime": 1778674387.8584964,
+    "hash": "11555ad334aff0f65dfe389d93e06fb2"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-cli\\src\\lib.rs": {
+    "mtime": 1778674387.859496,
+    "hash": "ed22fb0ed08cbc0258896a799971970c"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\build.rs": {
+    "mtime": 1778674387.8604977,
+    "hash": "7c00257f2bbf552b1259fd563a18f897"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\authorization_window.rs": {
+    "mtime": 1778674387.8651686,
+    "hash": "e6ea537674310d25a10f27ce23cab158"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\client_object.rs": {
+    "mtime": 1778674387.8651686,
+    "hash": "3c63086e8a65767200b3af64f812d88d"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\client_row.rs": {
+    "mtime": 1778674387.8661683,
+    "hash": "d0d16ff53e648c38ef6bc53b3621d960"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\fingerprint_window.rs": {
+    "mtime": 1778674387.8661683,
+    "hash": "6d1fb406d2cbb32a32a6501faf8e3765"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\key_object.rs": {
+    "mtime": 1778674387.8671892,
+    "hash": "861c913611e26db0542aec246fcc491a"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\key_row.rs": {
+    "mtime": 1778674387.8671892,
+    "hash": "a62bebbb7726f7a6df2cf5b44a7e587f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\lib.rs": {
+    "mtime": 1778674387.8681884,
+    "hash": "0326de4723e70eecbd945880c57ffc4f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\macos_privacy.rs": {
+    "mtime": 1778674387.8681884,
+    "hash": "e17bd48441e74f93ad6217636f9b35c3"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\macos_status_item.rs": {
+    "mtime": 1778674387.8681884,
+    "hash": "44ce9892014be95027dd5559c88e506f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\window.rs": {
+    "mtime": 1778674387.8691714,
+    "hash": "99c727b43f8d1ff99732187da722ff8e"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\authorization_window\\imp.rs": {
+    "mtime": 1778674387.8651686,
+    "hash": "97a2158e775bcc6e617589fbf935259f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\client_object\\imp.rs": {
+    "mtime": 1778674387.8661683,
+    "hash": "87695877a24b31aa574006f4a42747d1"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\client_row\\imp.rs": {
+    "mtime": 1778674387.8661683,
+    "hash": "70ec0f4e0dfdc5c0b9ce09efd63d5624"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\fingerprint_window\\imp.rs": {
+    "mtime": 1778674387.8671892,
+    "hash": "f478c376675c983181b0e1cf6cbc376f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\key_object\\imp.rs": {
+    "mtime": 1778674387.8671892,
+    "hash": "c5c9e4b3785aea844706ad67f832dcc6"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\key_row\\imp.rs": {
+    "mtime": 1778674387.8681884,
+    "hash": "10bd82b1b5844807abed06139c84951d"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\src\\window\\imp.rs": {
+    "mtime": 1778674387.8691714,
+    "hash": "a4ec0e9bcecccfd33f3306d36917ba92"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-ipc\\src\\connect.rs": {
+    "mtime": 1778674387.8700647,
+    "hash": "ff62442d4e1e0242d266e6f4acf9a145"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-ipc\\src\\connect_async.rs": {
+    "mtime": 1778674387.8700647,
+    "hash": "9e721394afae62cdf99a7cf81acaa580"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-ipc\\src\\lib.rs": {
+    "mtime": 1778674387.8700647,
+    "hash": "e1781c4b28a5ef0a261dd6af4e1baf9b"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-ipc\\src\\listen.rs": {
+    "mtime": 1778674387.8700647,
+    "hash": "5a2c3d463955d0092d28666c762b750f"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-proto\\src\\lib.rs": {
+    "mtime": 1778674387.871127,
+    "hash": "1d479b2be37f2ad899c10aaa44656c69"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\check-level1-readiness.ps1": {
+    "mtime": 1778693673.7822773,
+    "hash": "723f732f198a6ca7f942ce9498709bb8"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\collect-artifacts.ps1": {
+    "mtime": 1778683447.2032175,
+    "hash": "993ff731a0b827f4851c8306767fadcb"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\run-level0.ps1": {
+    "mtime": 1778683446.870242,
+    "hash": "fffb225e30553507d53d34a02c227bb3"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\capture.rs": {
+    "mtime": 1778674387.8741055,
+    "hash": "9155da7ac4c95c7db9802b65e37d6aaf"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\capture_test.rs": {
+    "mtime": 1778674387.8741055,
+    "hash": "aa8c062463070cc7732ddce9b912d641"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\client.rs": {
+    "mtime": 1778674387.8751254,
+    "hash": "2034232553bbb6765ef4b3faa2bdf5ad"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\config.rs": {
+    "mtime": 1778674387.8751254,
+    "hash": "43931e14186620dd22e36a57963148fe"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\connect.rs": {
+    "mtime": 1778674387.8751254,
+    "hash": "3c5c98bb3ee56c646647ff24f6745558"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\crypto.rs": {
+    "mtime": 1778674387.8751254,
+    "hash": "1ca4accf7155e731d6b585b48cc50bfb"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\dns.rs": {
+    "mtime": 1778674387.8761234,
+    "hash": "aa332f78978476c0b7a2f5d243d64089"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\emulation.rs": {
+    "mtime": 1778674387.8761234,
+    "hash": "fe06112b48d233b302d346df3a4e9da3"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\emulation_test.rs": {
+    "mtime": 1778674387.8761234,
+    "hash": "1c21cffa199d4734007acc1847f252a4"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\lib.rs": {
+    "mtime": 1778674387.8761234,
+    "hash": "1a4e6cb861b5c1f1b69d75d0fd17dfeb"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\listen.rs": {
+    "mtime": 1778674387.8771248,
+    "hash": "a67d407afd1e6b15e1b6f787b3719606"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\main.rs": {
+    "mtime": 1778674387.8771248,
+    "hash": "3c7c8ca2fdb9ccdf92636ab470b84e54"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\service.rs": {
+    "mtime": 1778674387.8771248,
+    "hash": "8a18d8cc2bd4a6a7d98d48329f9e7623"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\AGENTS.md": {
+    "mtime": 1778683826.7507725,
+    "hash": "0dcc297817ff67b49f7f7b90b9599e61"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\DOC.md": {
+    "mtime": 1778674387.8480434,
+    "hash": "c4b173df40b1c4a3258efff2cdd2e433"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\README.md": {
+    "mtime": 1778674387.8490431,
+    "hash": "4a2f6535563a340bad94b8567f549b2d"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\build-aux\\de.feschber.LanMouse.yml": {
+    "mtime": 1778674387.8490431,
+    "hash": "53ccbf0506f5b56a66472a1378d683ed"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\docs\\CI_CD_TESTES.md": {
+    "mtime": 1778693673.7701776,
+    "hash": "c7867b1c040b9e059a774ff65a13db0d"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\nix\\README.md": {
+    "mtime": 1778674387.871127,
+    "hash": "6bb5b869a7cbde3f0101de52f05b5525"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\de.feschber.LanMouse.svg": {
+    "mtime": 1778674387.8604977,
+    "hash": "310af22a2598c07b879d1fcc3b5562e9"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\edit-copy-symbolic.svg": {
+    "mtime": 1778674387.8618095,
+    "hash": "4f8d2c6e6f3c6fa4b7a3d67ef6a9206e"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\edit-delete-symbolic.svg": {
+    "mtime": 1778674387.862154,
+    "hash": "42d8f7500ab11f50f2a93f9a776cbeec"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\emblem-ok-symbolic.svg": {
+    "mtime": 1778674387.862154,
+    "hash": "7a7bea74434a4a3b86a1089a3bab9dbc"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\list-add-symbolic.svg": {
+    "mtime": 1778674387.862154,
+    "hash": "a74a500bdb8be2e6e5c8a7dc8fe92efb"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\object-rotate-right-symbolic.svg": {
+    "mtime": 1778674387.862154,
+    "hash": "82a54ff8dfd8f05c6cf8ba98aba3be66"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\object-select-symbolic.svg": {
+    "mtime": 1778674387.862154,
+    "hash": "7a7bea74434a4a3b86a1089a3bab9dbc"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\open-menu-symbolic.svg": {
+    "mtime": 1778674387.8631682,
+    "hash": "f60c253ebae0f28940312345739fd751"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\actions\\process-stop-symbolic.svg": {
+    "mtime": 1778674387.8631682,
+    "hash": "795157baf05479609d32eef1a658b48b"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\devices\\auth-fingerprint-symbolic.svg": {
+    "mtime": 1778674387.8631682,
+    "hash": "a092803d35da1e1af52f6c9f2ed6f58e"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\devices\\network-wired-symbolic.svg": {
+    "mtime": 1778674387.8631682,
+    "hash": "579ad52782d1317d79ad7121b6ccd6ff"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\places\\user-trash-symbolic.svg": {
+    "mtime": 1778674387.864185,
+    "hash": "67e92b5b96fd665015dd58777fc202ae"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\status\\dialog-warning-symbolic.svg": {
+    "mtime": 1778674387.864185,
+    "hash": "77e89125778de8f0172188805f960187"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\lan-mouse-gtk\\resources\\icons\\scalable\\status\\network-wired-disconnected-symbolic.svg": {
+    "mtime": 1778674387.864185,
+    "hash": "6379689d8789fb2660f86bbd3baf41f9"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\screenshots\\dark.png": {
+    "mtime": 1778674387.8721237,
+    "hash": "4b9c663836aeecc65cdaf1578b581112"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\screenshots\\light.png": {
+    "mtime": 1778674387.8731065,
+    "hash": "1599a548fda0af27d6adcae5319bcfdb"
+  }
+}

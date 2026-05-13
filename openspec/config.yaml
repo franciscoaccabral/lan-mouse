@@ -1,0 +1,37 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+context: |
+  Project: Lan Mouse, an open-source Rust software KVM for sharing mouse and keyboard input across machines on a local network.
+  Workspace: Rust workspace with GTK frontend, CLI/daemon mode, UDP event transport, TCP connection requests, DTLS encryption, and OS-specific capture/emulation backends.
+  Core pipeline: input-capture -> lan-mouse-ipc -> input-emulation, with shared event types in input-event and protocol serialization in lan-mouse-proto.
+  Platform discipline: OS-specific capture/emulation behavior differs materially across Linux, Windows, and macOS. Requirements that touch backends must name the target OS and include manual verification when automated tests are not practical.
+  Engineering conventions: keep scope narrow, prefer Rust Result/Option and thiserror, avoid blocking async flows, update README.md or DOC.md when public APIs or platform support change.
+  Validation baseline: run targeted cargo tests for affected crates, cargo fmt, and cargo clippy --workspace --all-targets --all-features when the dependency/toolchain environment allows.
+  Planning: use OpenSpec for proposed behavior changes and .planning/ for GSD project memory, roadmap, and operational research notes.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+rules:
+  proposal:
+    - Include explicit non-goals for OS-specific or backend-sensitive work.
+    - Identify whether README.md or DOC.md must be updated.
+  specs:
+    - Requirements that change capture or emulation behavior must name the affected backend or OS.
+    - Every backend-sensitive requirement must include at least one manual verification scenario unless covered by an automated dummy backend test.
+  tasks:
+    - Include validation tasks proportional to the touched crates and OS surface.

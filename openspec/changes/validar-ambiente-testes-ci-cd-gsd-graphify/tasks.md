@@ -26,11 +26,11 @@
 
 - [x] 4.1 Rodar `openspec validate --all`.
 - [x] 4.2 Verificar `git diff --check`.
-- [ ] 4.3 Registrar no resumo final qualquer validação que não puder ser executada.
+- [x] 4.3 Registrar no resumo final qualquer validação que não puder ser executada.
 
 ## 5. Próximas Implementações
 
 - [x] 5.1 Implementar o teste real de Nível 1 com dois processos locais.
 - [ ] 5.2 Implementar workflow real de Nível 2 para Hyprland VM.
-- [ ] 5.3 Configurar GitHub manualmente conforme `docs/CI_CD_TESTES.md`.
+- [x] 5.3 Configurar GitHub manualmente conforme `docs/CI_CD_TESTES.md`.
 - [ ] 5.4 Ativar Nível 3 para Omarchy quando houver runner ou VM real.

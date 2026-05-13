@@ -1,0 +1,73 @@
+name: Test Environment
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_hyprland_vm:
+        description: "Rodar verificação manual em runner self-hosted com KVM/Hyprland"
+        required: true
+        default: false
+        type: boolean
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  level0:
+    name: Nível 0 - Rust determinístico
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: Swatinem/rust-cache@v2
+      - name: Instalar dependências Linux
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libx11-dev libxtst-dev libadwaita-1-dev libgtk-4-dev
+      - name: Rodar Nível 0
+        run: bash scripts/ci/run-level0.sh
+      - name: Coletar artefatos
+        if: always()
+        run: bash scripts/ci/collect-artifacts.sh target/ci-artifacts
+      - name: Publicar artefatos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: level0-artifacts
+          path: target/ci-artifacts
+
+  level1-readiness:
+    name: Nível 1 - Prontidão
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: Swatinem/rust-cache@v2
+      - name: Verificar prontidão Nível 1
+        run: bash scripts/ci/check-level1-readiness.sh
+      - name: Coletar artefatos
+        if: always()
+        run: bash scripts/ci/collect-artifacts.sh target/ci-artifacts
+      - name: Publicar artefatos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: level1-readiness-artifacts
+          path: target/ci-artifacts
+
+  hyprland-vm-readiness:
+    name: Nível 2 - Runner Hyprland
+    if: ${{ inputs.run_hyprland_vm }}
+    runs-on: [self-hosted, linux, kvm, hyprland]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Coletar ambiente Hyprland
+        run: bash scripts/ci/collect-artifacts.sh target/ci-artifacts
+      - name: Registrar próximo passo
+        run: |
+          echo "Runner Hyprland encontrado. O teste de VM deve ser implementado em mudança dedicada."
+          echo "Verifique docs/CI_CD_TESTES.md antes de tornar este job obrigatório."
+      - name: Publicar artefatos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyprland-readiness-artifacts
+          path: target/ci-artifacts

@@ -81,7 +81,7 @@ jobs:
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
         # choco install msys2
-        # choco install visualstudio2022-workload-vctools
+        # GitHub-hosted Windows runners currently expose Visual Studio 2026.
         # choco install pkgconfiglite
         py -m venv .venv
         .venv\Scripts\activate.ps1
@@ -89,7 +89,7 @@ jobs:
         # see https://github.com/wingtk/gvsbuild/pull/1004
         Move-Item "C:\Program Files\Git\usr\bin" "C:\Program Files\Git\usr\notbin"
         Move-Item "C:\Program Files\Git\bin" "C:\Program Files\Git\notbin"
-        gvsbuild build --msys-dir=C:\msys64 gtk4 libadwaita librsvg
+        gvsbuild build --vs-ver vs2026 --msys-dir=C:\msys64 gtk4 libadwaita librsvg
         Move-Item "C:\Program Files\Git\usr\notbin" "C:\Program Files\Git\usr\bin"
         Move-Item "C:\Program Files\Git\notbin" "C:\Program Files\Git\bin"
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd

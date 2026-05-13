@@ -1564,7 +1564,7 @@
       "label": "check_client_activation()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L263",
+      "source_location": "L260",
       "id": "windows_event_thread_check_client_activation",
       "community": 7,
       "norm_label": "check_client_activation()"
@@ -1573,7 +1573,7 @@
       "label": "mouse_proc()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L310",
+      "source_location": "L307",
       "id": "windows_event_thread_mouse_proc",
       "community": 7,
       "norm_label": "mouse_proc()"
@@ -1582,7 +1582,7 @@
       "label": "kybrd_proc()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L337",
+      "source_location": "L334",
       "id": "windows_event_thread_kybrd_proc",
       "community": 7,
       "norm_label": "kybrd_proc()"
@@ -1591,7 +1591,7 @@
       "label": "window_proc()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L356",
+      "source_location": "L353",
       "id": "windows_event_thread_window_proc",
       "community": 7,
       "norm_label": "window_proc()"
@@ -1600,7 +1600,7 @@
       "label": "update_display_regions()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L371",
+      "source_location": "L368",
       "id": "windows_event_thread_update_display_regions",
       "community": 7,
       "norm_label": "update_display_regions()"
@@ -1609,7 +1609,7 @@
       "label": "enumerate_displays()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L380",
+      "source_location": "L377",
       "id": "windows_event_thread_enumerate_displays",
       "community": 7,
       "norm_label": "enumerate_displays()"
@@ -1618,7 +1618,7 @@
       "label": "update_clients()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L424",
+      "source_location": "L421",
       "id": "windows_event_thread_update_clients",
       "community": 7,
       "norm_label": "update_clients()"
@@ -1627,7 +1627,7 @@
       "label": "to_key_event()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L440",
+      "source_location": "L437",
       "id": "windows_event_thread_to_key_event",
       "community": 7,
       "norm_label": "to_key_event()"
@@ -1636,7 +1636,7 @@
       "label": "to_mouse_event()",
       "file_type": "code",
       "source_file": "input-capture/src/windows/event_thread.rs",
-      "source_location": "L483",
+      "source_location": "L480",
       "id": "windows_event_thread_to_mouse_event",
       "community": 7,
       "norm_label": "to_mouse_event()"
@@ -19845,9 +19845,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lan_mouse_agents_lan_mouse_agent_instructions",
-      "target": "lan_mouse_agents_graphify",
-      "confidence_score": 1.0
+      "target": "lan_mouse_agents_graphify"
     },
     {
       "relation": "contains",
@@ -20435,9 +20435,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_md",
-      "target": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse"
     },
     {
       "relation": "contains",
@@ -20445,9 +20445,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_objetivo",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_objetivo"
     },
     {
       "relation": "contains",
@@ -20455,9 +20455,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_n\u00edveis_de_teste",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_n\u00edveis_de_teste"
     },
     {
       "relation": "contains",
@@ -20465,9 +20465,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_o_que_fica_no_reposit\u00f3rio",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_o_que_fica_no_reposit\u00f3rio"
     },
     {
       "relation": "contains",
@@ -20475,9 +20475,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_scripts_iniciais",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_scripts_iniciais"
     },
     {
       "relation": "contains",
@@ -20485,9 +20485,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_configura\u00e7\u00e3o_github_necess\u00e1ria",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_configura\u00e7\u00e3o_github_necess\u00e1ria"
     },
     {
       "relation": "contains",
@@ -20495,9 +20495,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_seguran\u00e7a_de_runner_self_hosted",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_seguran\u00e7a_de_runner_self_hosted"
     },
     {
       "relation": "contains",
@@ -20505,9 +20505,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_artefatos_de_falha",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_artefatos_de_falha"
     },
     {
       "relation": "contains",
@@ -20515,9 +20515,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_uso_do_graphify",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_uso_do_graphify"
     },
     {
       "relation": "contains",
@@ -20525,9 +20525,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_depend\u00eancia_das_specs_de_produto",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_depend\u00eancia_das_specs_de_produto"
     },
     {
       "relation": "contains",
@@ -20535,9 +20535,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L115",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_como_uma_spec_deve_registrar_valida\u00e7\u00e3o",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_como_uma_spec_deve_registrar_valida\u00e7\u00e3o"
     },
     {
       "relation": "contains",
@@ -20545,9 +20545,9 @@
       "source_file": "docs/CI_CD_TESTES.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_ci_cd_testes_ci_cd_e_testes_do_lan_mouse",
-      "target": "docs_ci_cd_testes_estrat\u00e9gia_inicial",
-      "confidence_score": 1.0
+      "target": "docs_ci_cd_testes_estrat\u00e9gia_inicial"
     },
     {
       "relation": "contains",
@@ -20621,5 +20621,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d53cae0a086834a08f38225813bf45c599088846"
+  "built_at_commit": "38578fb10f319c0dc9fe02c70d75c7080f5af1e7"
 }

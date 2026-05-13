@@ -191,6 +191,18 @@
     "mtime": 1778674387.871127,
     "hash": "1d479b2be37f2ad899c10aaa44656c69"
   },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\check-level1-readiness.ps1": {
+    "mtime": 1778684107.6297913,
+    "hash": "383eabe6fa88ac14c813627557bc3715"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\collect-artifacts.ps1": {
+    "mtime": 1778683447.2032175,
+    "hash": "993ff731a0b827f4851c8306767fadcb"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\scripts\\ci\\run-level0.ps1": {
+    "mtime": 1778683446.870242,
+    "hash": "fffb225e30553507d53d34a02c227bb3"
+  },
   "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\src\\capture.rs": {
     "mtime": 1778674387.8741055,
     "hash": "9155da7ac4c95c7db9802b65e37d6aaf"
@@ -244,8 +256,8 @@
     "hash": "8a18d8cc2bd4a6a7d98d48329f9e7623"
   },
   "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\AGENTS.md": {
-    "mtime": 1778674387.846027,
-    "hash": "1ad1a6c1bc82c610582c13648b639a4e"
+    "mtime": 1778683826.7507725,
+    "hash": "0dcc297817ff67b49f7f7b90b9599e61"
   },
   "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\DOC.md": {
     "mtime": 1778674387.8480434,
@@ -258,6 +270,10 @@
   "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\build-aux\\de.feschber.LanMouse.yml": {
     "mtime": 1778674387.8490431,
     "hash": "53ccbf0506f5b56a66472a1378d683ed"
+  },
+  "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\docs\\CI_CD_TESTES.md": {
+    "mtime": 1778684115.1593013,
+    "hash": "ccf765dfb5f6cf921f5f4cb69d298a8d"
   },
   "C:\\Users\\franc\\OneDrive\\Local\\Dev\\lan-mouse\\nix\\README.md": {
     "mtime": 1778674387.871127,

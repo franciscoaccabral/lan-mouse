@@ -37,8 +37,8 @@ Essas mudanças são revisáveis por diff e entram no controle de versão.
 |--------|------------|--------|
 | `scripts/ci/run-level0.sh` | Linux/macOS | Roda formato, testes e clippy do Nível 0 |
 | `scripts/ci/run-level0.ps1` | Windows/PowerShell | Roda formato, testes e clippy do Nível 0 |
-| `scripts/ci/check-level1-readiness.sh` | Linux/macOS | Verifica build mínima e registra bloqueios do Nível 1 |
-| `scripts/ci/check-level1-readiness.ps1` | Windows/PowerShell | Verifica build mínima e registra bloqueios do Nível 1 |
+| `scripts/ci/check-level1-readiness.sh` | Linux/macOS | Executa smoke test com dois daemons locais, IPC isolado, configs separadas e backends `dummy` |
+| `scripts/ci/check-level1-readiness.ps1` | Windows/PowerShell | Verifica build mínima e registra o bloqueio atual de IPC fixo no Windows |
 | `scripts/ci/collect-artifacts.sh` | Linux/macOS | Coleta ambiente, Graphify e Hyprland quando disponível |
 | `scripts/ci/collect-artifacts.ps1` | Windows/PowerShell | Coleta ambiente e Graphify quando disponível |
 
@@ -127,7 +127,7 @@ Cada spec de produto deve incluir:
 ## Estratégia Inicial
 
 1. Manter o CI atual para Nível 0.
-2. Implementar Nível 1 em scripts/testes separados antes de torná-lo obrigatório.
+2. Evoluir o smoke test de Nível 1 para cobrir handshake, autorização e reconexão antes de torná-lo obrigatório.
 3. Preparar workflow manual para Nível 2.
 4. Configurar runner self-hosted com labels quando houver KVM confiável.
 5. Validar Nível 3 em Omarchy real apenas com workflow manual ou nightly.

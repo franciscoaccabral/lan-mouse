@@ -30,7 +30,7 @@
 
 ## 5. Próximas Implementações
 
-- [ ] 5.1 Implementar o teste real de Nível 1 com dois processos locais.
+- [x] 5.1 Implementar o teste real de Nível 1 com dois processos locais.
 - [ ] 5.2 Implementar workflow real de Nível 2 para Hyprland VM.
 - [ ] 5.3 Configurar GitHub manualmente conforme `docs/CI_CD_TESTES.md`.
 - [ ] 5.4 Ativar Nível 3 para Omarchy quando houver runner ou VM real.
